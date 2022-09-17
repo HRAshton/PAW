@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp" android:background="@drawable/background">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/background_main"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/main_service"
+                android:singleLine="true"
+                android:hint="@string/service" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/main_btn_clear"
+                android:layout_gravity="center_vertical|right"
+                android:background="@android:drawable/ic_menu_close_clear_cancel" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:id="@+id/main_key"
+                android:singleLine="true"
+                android:hint="@string/key"
+                android:layout_weight="1"
+                android:password="true" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="&lt;"
+                android:id="@+id/main_btn_paste"
+                android:enabled="false"
+                android:layout_weight="0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/main_linear_buttons">
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/main_btn_show"
+                        android:layout_weight="1"
+                        android:src="@drawable/show" />
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/main_btn_copy"
+                        android:visibility="visible"
+                        android:layout_weight="1"
+                        android:src="@drawable/copy" />
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/main_btn_destroy"
+                        android:visibility="visible"
+                        android:layout_weight="1"
+                        android:src="@drawable/destroy" />
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/main_btn_share"
+                        android:visibility="visible"
+                        android:layout_weight="1"
+                        android:src="@drawable/share" />
+
+                </LinearLayout>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/get_pass"
+                    android:id="@+id/main_btn_get"
+                    android:visibility="visible"
+                    android:background="@android:color/darker_gray" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView"
+            android:textSize="40sp"
+            android:typeface="monospace"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+</FrameLayout>

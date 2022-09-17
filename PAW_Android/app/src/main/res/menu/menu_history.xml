@@ -1,0 +1,13 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ocpg="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="hrashton.ocpg.HistoryActivity">
+
+    <item android:id="@+id/menu_history_clear"
+        android:orderInCategory="100" ocpg:showAsAction="always"
+        android:title="@string/menu_clear_history"
+        android:icon="@android:drawable/ic_menu_delete"
+         />
+
+</menu>

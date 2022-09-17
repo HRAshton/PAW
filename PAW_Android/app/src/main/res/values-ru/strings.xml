@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="get_pass">Получить пароль</string>
+    <string name="key">Секретный код</string>
+    <string name="service">plus.google.com или google</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="menu_list">Список служб</string>
+    <string name="title_activity_settings">Настройки</string>
+    <string name="settings_save_history">Сохранять историю</string>
+    <string name="settings_save_history_instructions">Если установлено, набираемые сервисы будут сохраняться и высвечиваться при наборе</string>
+    <string name="settings_set_pin_dialog_text">Если Вы не уверены, что сможете обезопабить своё устройство от кражи файлов, не следует сохранять Ключ</string>
+    <string name="settings_wrong_pin_toast">Формат PIN не верен! PIN должен состоять из 4 цифр.</string>
+    <string name="settings_set_pin_apply">Принять</string>
+    <string name="settings_set_pin_abort">Отмена</string>
+    <string name="settings_right_pin_toast">PIN сохранен. Введённый Ключ будет сохранен.</string>
+    <string name="login_text">Введите PIN. Если Вы его забыли, сбросьте данные приложения</string>
+    <string name="login_to_applications_settings">Сброс данных</string>
+    <string name="main_get_pin_dialog_title">Ввердите PIN</string>
+    <string name="settings_set_key_dialog_text" />
+    <string name="toast_copied">Пароль скопирован</string>
+    <string name="toast_back_once">Нажмите кнопку "Назад" ещё раз, чтобы вернуться</string>
+    <string name="menu_about">О приложении&#8230;</string>
+    <string name="about_text">Приложение - часть проекта <b>PAW</b>.\nПодробнее на сайте http://paw.ucoz.net\nБлагодарности:\n</string>
+    <string name="action_settings">Настройки</string>
+    <string name="menu_clear_history">Очистить</string>
+    <string name="settings_add_key">Задать ключ</string>
+    <string name="settings_remove_key">Забыть ключ</string>
+    <string name="settings_set_pin">Задать PIN</string>
+    <string name="settings_set_pin_dialog_title">Введите PIN-код</string>
+    <string name="title_activity_about">О программе</string>
+    <string name="title_activity_login"></string>
+    <string name="toast_history_press_again_to_clear">Нажмите снова, чтобы выйти</string>
+</resources>

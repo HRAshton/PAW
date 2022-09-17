@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <array name="random_imgs">
+        <item>@drawable/pow1</item>
+        <item>@drawable/pow2</item>
+        <item>@drawable/pow3</item>
+        <item>@drawable/pow4</item>
+        <item>@drawable/pow5</item>
+    </array>
+</resources>
